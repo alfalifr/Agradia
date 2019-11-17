@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cv_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_template_message_overlay"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/comp_text_desc"/>
+
+    <ImageView
+            android:id="@+id/border"
+            android:layout_toRightOf="@id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+    <LinearLayout
+            android:id="@+id/rl_solution_container"
+            android:layout_below="@id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <include
+                layout="@layout/comp_text_title_sub"
+                android:id="@+id/tv_solution"
+                android:layout_toLeftOf="@id/iv_solution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"/>
+        <ImageView
+                android:id="@+id/iv_solution"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/logo_whatsapp"
+                android:tint="@color/colorPrimaryDark"
+                android:layout_weight="5"/>
+    </LinearLayout>
+
+</RelativeLayout>

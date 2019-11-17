@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:padding="10dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="@dimen/profile_pict"
+            android:layout_height="@dimen/profile_pict"
+            app:riv_corner_radius="@dimen/profile_pict_corner"
+            android:src="@color/colorPrimaryDark"/>
+
+    <TextView
+            android:id="@+id/tv_name"
+            android:layout_toRightOf="@id/iv_profile"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_template_profile_name"
+            android:textSize="@dimen/profile_text_name"
+            android:textColor="@color/black"
+            />
+
+    <TextView
+            android:id="@+id/tv_content"
+            android:layout_toRightOf="@id/iv_profile"
+            android:layout_below="@id/tv_name"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_template_profile_content"
+            android:textSize="@dimen/profile_text_content"
+            android:textColor="@color/grey_txt"
+    />
+
+</RelativeLayout>

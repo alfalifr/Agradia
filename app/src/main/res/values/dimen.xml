@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="container_tile_menu">100dp</dimen>
+
+    <dimen name="card_corner">20dp</dimen>
+    <dimen name="card_corner_sm">10dp</dimen>
+
+    <dimen name="txt_header">20sp</dimen>
+    <dimen name="txt_highlight">23sp</dimen>
+    <dimen name="txt_tile_menu_container">100dp</dimen>
+    <dimen name="txt_tile_title">15sp</dimen>
+    <dimen name="txt_tile_desc">14sp</dimen>
+    <dimen name="txt_list_title">15sp</dimen>
+    <dimen name="txt_list_desc">14sp</dimen>
+    <dimen name="txt_list_fill_vertical">8sp</dimen>
+    <dimen name="txt_list_fill_vertical_line">12sp</dimen>
+    <dimen name="txt_list_fill_horizontal">10sp</dimen>
+    <dimen name="txt_list_fill_vertical_border">12sp</dimen>
+    <dimen name="txt_list_fill_horizontal_border">12sp</dimen>
+
+    <dimen name="pict_tile_list">150dp</dimen>
+    <dimen name="pict_tile_menu">50dp</dimen>
+    <dimen name="pict_indicator_side_txt">20dp</dimen>
+    <dimen name="pict_txt_fil_action">30dp</dimen>
+    <dimen name="pict_txt_fil_action_border">20dp</dimen>
+    <dimen name="pict_txt_fil_action_border_all">40dp</dimen>
+    <dimen name="drawable_border">10dp</dimen>
+    <dimen name="drawable_border_btn">3dp</dimen>
+    <dimen name="drawable_border_txt_fill">1dp</dimen>
+
+    <dimen name="fill_block_alpha">0.4</dimen>
+
+    <dimen name="profile_pict">70dp</dimen>
+    <dimen name="profile_pict_big">90dp</dimen>
+    <dimen name="profile_pict_corner">70dp</dimen>
+    <dimen name="profile_pict_corner_big">100dp</dimen>
+    <dimen name="profile_pict_indicator_big">30dp</dimen>
+    <dimen name="profile_text_name">20sp</dimen>
+    <dimen name="profile_text_name_big">23sp</dimen>
+    <dimen name="profile_text_content">18sp</dimen>
+    <dimen name="profile_text_content_big">21sp</dimen>
+
+
+    <dimen name="commodity_pict_indicator">70dp</dimen>
+    <dimen name="commodity_pict_indicator_half">35dp</dimen>
+
+    <!-- universal-->
+    <dimen name="comp_nav_bar">?attr/actionBarSize</dimen> <!--!!-->
+    <dimen name="comp_nav_bar_icon">35dp</dimen>
+    <dimen name="comp_text_title">20sp</dimen>
+    <dimen name="comp_text_title_sub">18sp</dimen>
+    <dimen name="comp_text_desc">15sp</dimen>
+    <dimen name="page_fill_margin_horizontal">30dp</dimen>
+    <dimen name="page_normal_margin_horizontal">10dp</dimen>
+    <dimen name="overlay_margin">20dp</dimen>
+
+    <!-- act_login.xml -->
+    <dimen name="act_login_logo">250dp</dimen>
+    <dimen name="act_login_fill_width">350dp</dimen>
+    <dimen name="act_login_padding_horizontal">30dp</dimen>
+
+    <!-- untuk semua carousel di home -->
+    <dimen name="home_carousel_height">250dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

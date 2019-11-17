@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cv_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_template_message_overlay"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/comp_text_desc"/>
+
+    <ImageView
+            android:id="@+id/border"
+            android:layout_toRightOf="@id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+    <RelativeLayout
+            android:layout_below="@id/tv_title"
+            android:layout_toLeftOf="@id/border"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <include
+                layout="@layout/comp_button_action_small"
+                android:id="@+id/btn_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <include
+                layout="@layout/comp_button_action_small"
+                android:id="@+id/btn_right"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>

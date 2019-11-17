@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <include android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_header" layout="@layout/comp_text_header"/>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        app:srcCompat="@color/colorPrimaryDark" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kirinya"/>
+
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kanannya"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_left_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kirinya"/>
+
+        <TextView
+            android:id="@+id/tv_right_1"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kanannya"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_left_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kirinya"/>
+
+        <TextView
+            android:id="@+id/tv_right_2"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kanannya"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_left_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kirinya"/>
+
+        <TextView
+            android:id="@+id/tv_right_3"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kanannya"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_left_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kirinya"/>
+
+        <TextView
+            android:id="@+id/tv_right_4"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kanannya"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_left_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kirinya"/>
+
+        <TextView
+            android:id="@+id/tv_right_5"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kanannya"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_right_6"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/comp_text_desc"
+            android:textColor="@color/black"
+            android:text="Ini teks di kanannya"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/tv_title"
+        android:layout_toLeftOf="@id/border"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/btn_left"
+            layout="@layout/comp_button_action_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <include
+            layout="@layout/comp_button_action_small"
+            android:id="@+id/btn_right"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+    <EditText
+            android:id="@+id/ed_fill"
+            android:paddingTop="@dimen/txt_list_fill_vertical"
+            android:paddingBottom="@dimen/txt_list_fill_vertical"
+            android:paddingLeft="@dimen/txt_list_fill_horizontal"
+            android:paddingRight="@dimen/txt_list_fill_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_border_square_round_edge_fill"
+            android:hint="@string/text_template_fill"
+            android:textSize="@dimen/txt_list_desc"/>
+
+    <ImageView
+            android:id="@+id/iv_action"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="@dimen/pict_txt_fil_action_border"
+            android:layout_height="@dimen/pict_txt_fil_action_border"
+            android:tint="@color/grey_icon"
+            android:src="@drawable/ic_search"/>
+
+</RelativeLayout>

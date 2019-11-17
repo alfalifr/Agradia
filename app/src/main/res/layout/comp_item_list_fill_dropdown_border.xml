@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_template_title"
+            android:textSize="@dimen/txt_list_title"
+            android:textColor="@color/black"/>
+
+    <RelativeLayout
+            android:layout_below="@id/tv_title"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_border_square_round_edge_fill">
+        <Spinner
+                android:id="@+id/sp_fill"
+                android:layout_centerVertical="true"
+                android:paddingTop="@dimen/txt_list_fill_vertical"
+                android:paddingBottom="@dimen/txt_list_fill_vertical"
+                android:paddingLeft="@dimen/txt_list_fill_horizontal"
+                android:paddingRight="@dimen/txt_list_fill_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textSize="@dimen/txt_list_desc"/>
+
+        <ImageView
+                android:id="@+id/iv_action"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:layout_width="@dimen/pict_txt_fil_action_border"
+                android:layout_height="@dimen/pict_txt_fil_action_border"
+                android:tint="@color/grey_icon"
+                android:src="@drawable/ic_arrow_simple"
+                android:rotation="90"/>
+
+        <ImageView
+                android:id="@+id/border_bottom"
+                android:layout_below="@id/sp_fill"
+                android:layout_width="0dp"
+                android:layout_height="0dp"/>
+
+        <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_block"
+                android:layout_above="@id/border_bottom"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_solid_square_round_edge_fill"
+                android:alpha="@dimen/fill_block_alpha"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_margin="@dimen/overlay_margin"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp">
+
+    <RelativeLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+        <include
+                android:id="@+id/tv_title"
+                layout="@layout/comp_text_title"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_container"
+                android:layout_below="@id/tv_title"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

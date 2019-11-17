@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Agradia</string>
+
+
+
+    <string name="text_template_header">Ini Judul Headernya</string>
+    <string name="text_template_title">Ini Judulnya</string>
+    <string name="text_template_title_right">Ini Judul Kanannya</string>
+    <string name="text_template_title_sub">Ini Sub Judulnya</string>
+    <string name="text_template_desc">Ini isinya</string>
+    <string name="text_template_desc_right">Ini isi kanannya</string>
+    <string name="text_template_button_action">Logout</string>
+    <string name="text_template_fill">Isian ini kosong</string>
+    <string name="text_template_profile_name">Ini namanya</string>
+    <string name="text_template_profile_content">Ini penjelesannya</string>
+    <string name="text_template_message_overlay">Ini pesan peringatan overlay</string>
+
+    <string name="text_order">Pesan</string>
+    <string name="text_cancel">Batal</string>
+
+
+    <!-- Transaksi -->
+    <string name="transaction_type_sell">Jual</string>
+    <string name="transaction_type_buy">Beli</string>
+
+    <!--NavBar-->
+    <string name="navbar_buy">Belanja</string>
+    <string name="navbar_transaction">Transaksi</string>
+    <string name="navbar_profile">Profil</string>
+
+    <string name="navbar_home">Beranda</string>
+    <string name="navbar_commodity">Komoditi</string>
+    <string name="navbar_order_buy">Kulakan</string>
+    <string name="navbar_order_sell">Orderan</string>
+    <string name="navbar_price">Harga</string>
+    <string name="navbar_report">Pelaporan</string>
+    <string name="navbar_market_opr">Opr Pasar</string>
+    <string name="navbar_administr">Administr</string>
+    <string name="navbar_distsupp">Distributor\nSupplier</string>
+    <string name="navbar_market">Pasar</string>
+    <string name="navbar_monitor">Monitoring</string>
+
+    <!--ActBar-->
+    <string name="actbar_commodity_add">Tambah Komoditi</string>
+    <string name="actbar_commodity_filter">Filter</string>
+
+    <!--Popup-->
+    <string name="popup_commodity_filter_available">Tersedia</string>
+    <string name="popup_commodity_filter_empty">Habis</string>
+
+
+    <!-- act_login.xml -->
+    <string name="act_login_button">Login</string>
+    <string name="act_login_uname_title">Username</string>
+    <string name="act_login_uname_hint">Isikan di sini</string>
+    <string name="act_login_pswd_title">Password</string>
+    <string name="act_login_pswd_hint">Isikan di sini</string>
+
+    <!-- act_umum_berandanda.xml -->
+    <string name="act_umum_home_carousel">(Teks Karousel)</string>
+    <string name="act_umum_home_jelajah_komoditi">Jelajah Komoditi</string>
+    <string name="act_umum_home_toko_pasar">Daftar Pasar dan Toko</string>
+
+
+    <!-- frag_commodity_list.xml -->
+    <string name="frag_commodity_list_header_order">Komoditi yang Tersedia di Koperasi {name}</string>
+
+    <!-- act_commodity_detail.xml -->
+    <string name="act_commodity_detail_commodity_name">Nama Komoditi</string>
+    <string name="act_commodity_detail_commodity_kind">Jenis</string>
+    <string name="act_commodity_detail_commodity_unit">Satuan</string>
+    <string name="act_commodity_detail_commodity_price">Harga</string>
+    <string name="act_commodity_detail_commodity_stock">Persediaan</string>
+    <string name="act_commodity_detail_total_price">Total harga:</string>
+    <string name="act_commodity_detail_header_order">Pesan Komoditi</string>
+    <string name="act_commodity_detail_order_sum">Jumlah</string>
+    <string name="act_commodity_detail_order_confirmation">Anda akan memesan {name} sebanyak {sum} dengan harga total
+        {price_total}
+    </string>
+    <string name="act_commodity_detail_order_confirmation_zero">Tidak bisa memesan dengan nilai 0
+    </string>
+    <string name="act_commodity_detail_order_confirmation_left">Anda hanya bisa memesan {name} sebanyak {sum} bukan {sum_real}. Harga total
+        {price_total}
+    </string>
+    <string name="act_commodity_detail_order_confirmation_empty">Mohon maaf permintaan anda tidak bisa dipenuhi karena stok sedang kosong}
+    </string>
+    <string name="act_commodity_detail_order_succes">Pemesanan berhasil dilakukan</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="actbar_commodity_sort">Urutkan</string>
+    <string name="actbar_commodity_reset">Reset</string>
+    <string name="popup_transaction_sort_name">Nama Komoditi</string>
+    <string name="popup_transaction_sort_price">Harga</string>
+    <string name="popup_transaction_sort_date">Tanggal Transaksi</string>
+    <string name="popup_commodity_sort_name">Nama</string>
+    <string name="popup_commodity_sort_stock">Stok</string>
+    <string name="popup_transaction_filter_status_requested">Belum Terkonfirmasi</string>
+    <string name="popup_transaction_filter_status_rejected">Ditolak</string>
+    <string name="popup_transaction_filter_status_approved">Disetujui</string>
+    <string name="popup_transaction_filter_type_buy">Transaksi Beli</string>
+    <string name="popup_transaction_filter_type_sell">Transaksi Jual</string>
+    <string name="title_activity_map_detail">MapDetailAct</string>
+</resources>

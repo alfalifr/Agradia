@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="?attr/actionBarSize">
+
+    <LinearLayout
+            android:id="@+id/ll_menu_container"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <include
+                android:id="@+id/btn_menu_context"
+                layout="@layout/comp_button_item_menu"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+    </LinearLayout>
+    <include
+            android:id="@+id/search_box"
+            layout="@layout/comp_search_box_border"
+            android:layout_toLeftOf="@id/ll_menu_container"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+</RelativeLayout>

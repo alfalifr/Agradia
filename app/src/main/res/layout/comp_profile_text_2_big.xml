@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:padding="10dp">
+
+    <RelativeLayout
+            android:id="@+id/rl_profile_pict_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_profile_pict_img"
+                android:layout_width="@dimen/profile_pict_big"
+                android:layout_height="@dimen/profile_pict_big"
+                app:riv_corner_radius="@dimen/profile_pict_corner_big"
+                android:src="@color/colorPrimaryDark"/>
+        <TextView
+                android:id="@+id/profile_border"
+                android:layout_toRightOf="@id/iv_profile_pict_img"
+                android:layout_below="@id/iv_profile_pict_img"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"/>
+        <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_profile_pict_indicator"
+                android:layout_toLeftOf="@id/profile_border"
+                android:layout_above="@id/profile_border"
+                android:layout_width="@dimen/profile_pict_indicator_big"
+                android:layout_height="@dimen/profile_pict_indicator_big"
+                android:padding="5dp"
+                app:riv_mutate_background="true"
+                app:riv_corner_radius="@dimen/profile_pict_corner_big"
+                android:src="@color/grey_icon"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/rl_text_container"
+            android:layout_toRightOf="@id/rl_profile_pict_container"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/tv_name"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_template_profile_name"
+                android:textSize="17sp"
+                android:textColor="@color/black"/>
+        <TextView
+                android:id="@+id/tv_content"
+                android:layout_below="@id/tv_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_template_profile_content"
+                android:textSize="14sp"
+                android:textColor="@color/grey_txt"/>
+    </RelativeLayout>
+</RelativeLayout>

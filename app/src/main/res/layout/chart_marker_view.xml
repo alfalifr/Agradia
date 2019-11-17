@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+            android:id="@+id/rl_content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/shape_solid_square_round_edge_fill"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/tv_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beras"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_title"
+                android:layout_below="@id/tv_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="2017"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+                android:id="@+id/tv_content"
+                android:layout_below="@id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:text="2017, Rp 80.000"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/iv_corner"
+            android:layout_below="@id/rl_content_container"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="-4dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shape_triangle"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+</RelativeLayout>

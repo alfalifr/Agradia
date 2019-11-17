@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:padding="4dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+        <TextView
+                android:id="@+id/tv"
+                android:padding="5dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/iv_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_template_desc"
+                android:textColor="@color/black"
+                android:textSize="@dimen/comp_text_desc"/>
+
+        <ImageView
+                android:id="@+id/iv_action"
+                android:layout_toLeftOf="@id/iv_context"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_width="@dimen/pict_indicator_side_txt"
+                android:layout_height="@dimen/pict_indicator_side_txt"
+                android:src="@color/colorPrimaryDark"/>
+
+        <ImageView
+                android:id="@+id/iv_context"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="20dp"
+                android:layout_width="@dimen/pict_indicator_side_txt"
+                android:layout_height="@dimen/pict_indicator_side_txt"
+                android:src="@drawable/ic_dot_3_vertical"
+                android:tint="@color/grey_btn"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
